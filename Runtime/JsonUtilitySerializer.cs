@@ -5,7 +5,7 @@ namespace junya005.SaveFileSystem
 {
     /// <summary>
     ///     Unity標準のJsonUtilityを使用したSerializer。
-    ///     Jsonとstring間のデータ変換を行います。
+    ///     Json(string)とデータクラス間のデータ変換を行います。
     /// </summary>
     /// <remarks>
     ///     <b>使用例</b>
