@@ -1,0 +1,20 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[1,0],
+"classes.html":[1,1],
+"classjunya005_1_1_save_file_system_1_1_json_utility_serializer.html":[0,0,0,0,1],
+"classjunya005_1_1_save_file_system_1_1_json_utility_serializer.html":[1,0,0,0,1],
+"classjunya005_1_1_save_file_system_1_1_save_system_exception.html":[0,0,0,0,2],
+"classjunya005_1_1_save_file_system_1_1_save_system_exception.html":[1,0,0,0,2],
+"hierarchy.html":[1,2],
+"index.html":[],
+"interfacejunya005_1_1_save_file_system_1_1_i_serializer.html":[0,0,0,0,0],
+"interfacejunya005_1_1_save_file_system_1_1_i_serializer.html":[1,0,0,0,0],
+"namespacejunya005.html":[0,0,0],
+"namespacejunya005_1_1_save_file_system.html":[0,0,0,0],
+"namespacejunya005_1_1_save_file_system.html#a7d57b25a315616ca735b4c82abc8fa2d":[0,0,0,0,3],
+"namespacemembers.html":[0,1,0],
+"namespacemembers_enum.html":[0,1,1],
+"namespaces.html":[0,0],
+"pages.html":[]
+};
