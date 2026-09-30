@@ -2,6 +2,9 @@ using System;
 
 namespace junya005.SaveFileSystem
 {
+    /// <summary>
+    /// このシステムのエラーコード定義
+    /// </summary>
     public enum SaveSystemErrorCode
     {
         None = 0,

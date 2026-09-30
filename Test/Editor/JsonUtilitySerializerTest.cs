@@ -3,7 +3,10 @@ using NUnit.Framework;
 
 namespace junya005.SaveFileSystem.Tests
 {
-    public class JsonSerializerTest
+    /// <summary>
+    /// JsonUtilitySerializerのテストを含めたクラス。
+    /// </summary>
+    public class JsonUtilitySerializerTest
     {
         [Serializable]
         class TestSaveData
@@ -26,6 +29,8 @@ namespace junya005.SaveFileSystem.Tests
             _jsonUtilitySerializer = new JsonUtilitySerializer();
         }
 
+        #region Serialize Test
+
         [Test]
         public void Serialize_ValidObject_ReturnJsonString()
         {
@@ -45,6 +50,10 @@ namespace junya005.SaveFileSystem.Tests
                 _jsonUtilitySerializer.Serialize<TestSaveData>(null);
             });
         }
+
+        #endregion
+
+        #region Deserialize Test
 
         [Test]
         public void DeSerialize_ValidJsonString_ReturnObject()
@@ -83,5 +92,8 @@ namespace junya005.SaveFileSystem.Tests
 
             Assert.AreEqual(SaveSystemErrorCode.DeserializationFailed, exception.ErrorCode);
         }
+
+        #endregion
+
     }
 }

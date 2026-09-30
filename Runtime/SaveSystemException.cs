@@ -2,6 +2,9 @@ using System;
 
 namespace junya005.SaveFileSystem
 {
+    /// <summary>
+    /// このシステムの例外クラス
+    /// </summary>
     public class SaveSystemException : Exception
     {
         public SaveSystemErrorCode ErrorCode { get; }
